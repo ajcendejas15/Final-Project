@@ -7,12 +7,11 @@
 //
 
 #include <iostream>
+#include "GameMgr.h"
 
-int main(int argc, const char * argv[])
+int main()
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    startGame();
+    PlayHand();
 }
 

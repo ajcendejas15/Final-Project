@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9770C827195C753C001E4F25 /* GameMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9770C825195C753C001E4F25 /* GameMgr.cpp */; };
+		9770C82A195C754F001E4F25 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9770C828195C754F001E4F25 /* Card.cpp */; };
+		9770C82D195C7565001E4F25 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9770C82B195C7565001E4F25 /* Deck.cpp */; };
+		9770C833195C7584001E4F25 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9770C831195C7584001E4F25 /* Player.cpp */; };
+		9770C836195C7591001E4F25 /* Dealer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9770C834195C7591001E4F25 /* Dealer.cpp */; };
+		9770C839195C800F001E4F25 /* Shoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9770C837195C800F001E4F25 /* Shoe.cpp */; };
 		9774DECC19527FE700CEF64E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9774DECB19527FE700CEF64E /* main.cpp */; };
 		9774DECE19527FE700CEF64E /* Final_Project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9774DECD19527FE700CEF64E /* Final_Project.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +31,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9770C825195C753C001E4F25 /* GameMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameMgr.cpp; sourceTree = "<group>"; };
+		9770C826195C753C001E4F25 /* GameMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMgr.h; sourceTree = "<group>"; };
+		9770C828195C754F001E4F25 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		9770C829195C754F001E4F25 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		9770C82B195C7565001E4F25 /* Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		9770C82C195C7565001E4F25 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		9770C831195C7584001E4F25 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		9770C832195C7584001E4F25 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9770C834195C7591001E4F25 /* Dealer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dealer.cpp; sourceTree = "<group>"; };
+		9770C835195C7591001E4F25 /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		9770C837195C800F001E4F25 /* Shoe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shoe.cpp; sourceTree = "<group>"; };
+		9770C838195C800F001E4F25 /* Shoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoe.h; sourceTree = "<group>"; };
 		9774DEC819527FE700CEF64E /* Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9774DECB19527FE700CEF64E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9774DECD19527FE700CEF64E /* Final_Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Final_Project.1; sourceTree = "<group>"; };
@@ -61,6 +79,18 @@
 			isa = PBXGroup;
 			children = (
 				9774DECB19527FE700CEF64E /* main.cpp */,
+				9770C825195C753C001E4F25 /* GameMgr.cpp */,
+				9770C826195C753C001E4F25 /* GameMgr.h */,
+				9770C828195C754F001E4F25 /* Card.cpp */,
+				9770C829195C754F001E4F25 /* Card.h */,
+				9770C82B195C7565001E4F25 /* Deck.cpp */,
+				9770C82C195C7565001E4F25 /* Deck.h */,
+				9770C837195C800F001E4F25 /* Shoe.cpp */,
+				9770C838195C800F001E4F25 /* Shoe.h */,
+				9770C831195C7584001E4F25 /* Player.cpp */,
+				9770C832195C7584001E4F25 /* Player.h */,
+				9770C834195C7591001E4F25 /* Dealer.cpp */,
+				9770C835195C7591001E4F25 /* Dealer.h */,
 				9774DECD19527FE700CEF64E /* Final_Project.1 */,
 			);
 			path = "Final Project";
@@ -117,6 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9770C839195C800F001E4F25 /* Shoe.cpp in Sources */,
+				9770C82D195C7565001E4F25 /* Deck.cpp in Sources */,
+				9770C82A195C754F001E4F25 /* Card.cpp in Sources */,
+				9770C833195C7584001E4F25 /* Player.cpp in Sources */,
+				9770C836195C7591001E4F25 /* Dealer.cpp in Sources */,
+				9770C827195C753C001E4F25 /* GameMgr.cpp in Sources */,
 				9774DECC19527FE700CEF64E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +263,7 @@
 				9774DED319527FE700CEF64E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
